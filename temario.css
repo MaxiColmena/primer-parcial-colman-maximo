@@ -1,3 +1,9 @@
+/* ====  Reset global ==== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 /* ==== Estilo general ==== */
 body {
   font-family: "Segoe UI", sans-serif;
@@ -45,8 +51,14 @@ article p {
 
 /* ==== Footer ==== */
 footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #212529;
   text-align: center;
   padding: 15px 0;
-  margin-top: auto;
+}
+
+footer .contenedor {
+  color:#ffff
 }
